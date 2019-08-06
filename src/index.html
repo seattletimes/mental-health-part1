@@ -1,15 +1,100 @@
 <!doctype html>
 <html lang="en-US">
   <head>
+    <!-- <meta property="og:image" content="https://projects.seattletimes.com/2018/moving-mountain-goats/assets/social.jpg" /> -->
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
 
-    <responsive-child>
-      <!-- content goes here -->
-    </responsive-child>
+      <%= t.include("partials/_nav.html") %>
+      <!-- <%= t.include("partials/_ad.html", { type: "banner" }) %> -->
 
+    <header class="splash">
+      <h1>A public crisis, a private toll: How a psychiatric hospital chain’s expansion has routinely put patients, staff in peril</h1>
+      <div class="captionLeft">(Ramon Dompor / The Seattle Times)</div>
+    </header>
+
+    <main class="content">
+
+      <div class="byline constrained">
+            By <a class="name" href="https://www.seattletimes.com/author/daniel-gilbert/">Daniel Gilbert</a>
+            <div class="staff">Seattle Times staff reporter</div>
+            <div class="date">Published August 18, 2019</div>
+      </div>
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section1) %>
+      </div>
+  
+        <img src="assets/Mountain-goat-mugging-W.jpg" alt="How a mountain goat is 'mugged'" class="hidden-mobile">
+        <img src="assets/Mountain-goat-mugging-Mobile.jpg" alt="How a mountain goat is 'mugged'" class="visible-mobile">
+        <div class="captionLeft">(Reporting: Evan Bush, Graphic: Mark Nowlin / The Seattle Times)</div>
+  
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section2) %>
+        </div>
+  
+        <hr>
+  
+        <div class="floating constrained">
+          <div>
+              <img src="assets/originstorygoat.jpg" alt="Historic article clipping on mountain goats" aria-describedby="historic-caption">
+            </a>
+              <div class="caption" id="historic-caption">For this February 1948 article, Olympic National Park officials told The Seattle Times an estimated 100 goats lived in the Olympic mountains. Four goats came from the Canadian Selkirks in 1925, according to the article. Eight arrived from Alaska in 1929 in an exchange for Olympic Roosevelt elk calves. Most goats were released at Mount Storm King, beside Lake Crescent. Locals thought the goats had died, but noticed white forms on high crags in the early 1930s. (The Seattle Times)</div>
+          </div>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section3) %>
+        </div>
+        
+        <div class="floating constrained">
+          <div>
+              <img src="assets/photos/GoatRelocation_goats_truck_vert.jpg" alt="Goats dangling from a helicopter" aria-describedby="truck-caption">
+            </a>
+              <div class="caption" id="truck-caption">Wearing eye masks, horn pads and leg straps, goats dangle from a helicopter. (Ramon Dompor / The Seattle Times)</div>
+          </div>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section4) %>
+        </div>
+  
+      
+        <img src="assets/mountain-goats-capture-W.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="hidden-mobile">
+        <img src="assets/mountain-goats-capture-mobile.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="visible-mobile">
+        <div class="captionLeft">Source: National Park Service (Emily M. Eng / The Seattle Times)</div>
+        
+        <div class="floating constrained">
+          <%= t.include("partials/_ad.html", { type: "square" }) %>
+        </div>
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section5) %>
+        </div>
+  
+        <div class="floating constrained">
+          <div>
+              <img src="assets/photos/GoatRelocation_rattlesnake.jpg" alt="Goat standing on Rattlesnake Ledge" aria-describedby="rattlesnake-caption">
+            </a>
+              <div class="caption" id="rattlesnake-caption">A mountain goat that once lived at Olympic National Park took up temporary residence at Rattlesnake Ledge, a popular destination for hikers near North Bend. The goat was not afraid of people and not aggressive, but it got within about 12 feet of people, said hiker Hella Döge. "The goat was actually following us. Everyone shuffled around and tried to keep distance from the goat," she said. (Photo courtesy of Hella Döge)</div>
+          </div>
+        </div>
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section6) %>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section7) %>
+        </div>
+        <hr>
+  
+        <div class="constrained">
+          <img src="assets/mountain-goat-run-w.jpg" alt="Running mountain goat">
+          <div class="captionLeft">(Mark Nowlin / The Seattle Times)</div>
+        </div>
+  
+    </main>
+    <%= t.include("partials/_navBottom.html") %>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>

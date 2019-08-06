@@ -34,6 +34,7 @@ By Daniel Gilbert
 
 Seattle Times staff reporter
 
+section1:
 On the first of Rosemary Torgesen’s 99 days as a patient at the Smokey Point Behavioral Hospital, her children felt the placement was especially promising — even providential.
 
 Rosemary, 78 years old, had come to the brand-new psychiatric hospital in Marysville in a state of delusion, believing that a divine voice was instructing her not to eat or take medication. She had been involuntarily committed at least 17 times before and had always stabilized, returning to a routine centered on church and prayer.
@@ -82,7 +83,10 @@ In March of 2018, a nurse told state inspectors that there had been “many suic
 
 Inspectors asked the chief nursing officer about staffing and recorded this explanation: “corporate leadership asked him to be within budget.”
 
-“Immediate jeopardy”
+:end
+
+section2:
+# “Immediate jeopardy”
 
 Richard Kresch, the founder and chief executive of US HealthVest, has made a career developing psychiatric hospitals and selling them for a profit. A psychiatrist by training, Kresch ran Ascend Health before selling it to industry giant Universal Health Services in 2012 for $503 million in cash.
 
@@ -140,7 +144,10 @@ The inspectors declared a state of “immediate jeopardy,” the most serious ki
 
 A week after the inspectors issued their findings, Smokey Point admitted Rosemary Torgesen.
 
-A more appropriate place
+:end
+
+section3:
+# A more appropriate place
 
 Rosemary stood 5 feet tall and weighed barely 100 pounds, a diminutive stature that contrasted with an exceptionally strong will.
 
@@ -164,7 +171,10 @@ Rosemary herself was frustrated. “This is a waste of money,” she told the co
 
 It was, in fact, a wasted effort. Northwest said its geropsychiatric unit was full and couldn’t admit her. She was sent back to Smokey Point.
 
-“Hundred percent success rate”
+:end
+
+section4:
+# “Hundred percent success rate”
 
 Kresch, US HealthVest’s chief executive, has spoken candidly about the company’s focus on profitability, boasting of a “hundred percent success rate in turning around all of the distressed hospitals we have acquired.”
 
@@ -216,7 +226,11 @@ Holbrooks, the detective who also had investigated Sarah Reum’s death, didn’
 
 ///US HealthVest comment TK.///
 
-“Half dead”
+:end
+
+section5:
+
+# “Half dead”
 
 At Smokey Point, some employees hoped US HealthVest would take Washington state’s investigation to heart and improve conditions. Instead, the turmoil only intensified.
 
@@ -256,7 +270,10 @@ Only then did Rosemary’s children suspect their mother had been neglected. “
 
 On June 29, Smokey Point held an emergency meeting with its medical director, chief executive and one of Rosemary’s daughters. Rosemary hadn’t had anything to eat or drink for at least four days. The hospital would send her to Providence and not accept her back.
 
-“A strong supporter”
+:end
+
+section6: 
+# “A strong supporter”
 
 Despite Smokey Point’s struggles, US HealthVest benefited from a key source of support: Gov. Inslee and his administration.
 
@@ -286,7 +303,10 @@ The claim was false, and hospital executives knew it.
 
 Just two weeks earlier, health inspectors had again found that Smokey Point failed to meet comply with federal standards for keeping patients safe.
 
-Fallout
+:end
+
+section7:
+# Fallout
 
 Almost as soon as Rosemary Torgesen was admitted into Providence Regional Medical Center, an internal-medicine doctor recognized something his colleagues in the emergency department had not.
 
@@ -339,5 +359,7 @@ His last correspondence with Smokey Point came in October, after the hospital ma
 Smokey Point’s chief financial officer responded within the hour, reducing the balance to $3,015.
 
 Two minutes later the finance chief emailed again. Rosemary had secondary coverage through Medicaid. There was no longer an account balance. The government would pay.
+
+:end
 
 Daniel Gilbert: dgilbert@seattletimes.com; on Twitter: @ByDanielGilbert.
