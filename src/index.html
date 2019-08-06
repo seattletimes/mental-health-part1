@@ -25,45 +25,55 @@
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section1) %>
       </div>
-  
-        <img src="assets/Mountain-goat-mugging-W.jpg" alt="How a mountain goat is 'mugged'" class="hidden-mobile">
-        <img src="assets/Mountain-goat-mugging-Mobile.jpg" alt="How a mountain goat is 'mugged'" class="visible-mobile">
-        <div class="captionLeft">(Reporting: Evan Bush, Graphic: Mark Nowlin / The Seattle Times)</div>
-  
+
+      <div>
+          <img src="assets/photos/photo-torgesen.jpg" alt="Photo of Torgesen" aria-describedby="photoTorgesen-caption">
+        </a>
+          <div class="caption" id="photoTorgesen-caption"> “Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. “She was a strong, strong woman.” (Erika Schultz / The Seattle Times)</div>
+      </div>
+      
+      <hr>
+
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section2) %>
         </div>
-  
-        <hr>
-  
-        <div class="floating constrained">
-          <div>
-              <img src="assets/originstorygoat.jpg" alt="Historic article clipping on mountain goats" aria-describedby="historic-caption">
-            </a>
-              <div class="caption" id="historic-caption">For this February 1948 article, Olympic National Park officials told The Seattle Times an estimated 100 goats lived in the Olympic mountains. Four goats came from the Canadian Selkirks in 1925, according to the article. Eight arrived from Alaska in 1929 in an exchange for Olympic Roosevelt elk calves. Most goats were released at Mount Storm King, beside Lake Crescent. Locals thought the goats had died, but noticed white forms on high crags in the early 1930s. (The Seattle Times)</div>
-          </div>
+
+        <div class="constrained">
+            <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
+          </a>
+            <div class="caption" id="perry-caption"> “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” says nurse Christina Perry. (Erika Schultz / The Seattle Times)</div>
         </div>
+
+        <hr>
 
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section3) %>
         </div>
+
         
-        <div class="floating constrained">
+        <!-- <div class="floating constrained">
           <div>
               <img src="assets/photos/GoatRelocation_goats_truck_vert.jpg" alt="Goats dangling from a helicopter" aria-describedby="truck-caption">
             </a>
               <div class="caption" id="truck-caption">Wearing eye masks, horn pads and leg straps, goats dangle from a helicopter. (Ramon Dompor / The Seattle Times)</div>
           </div>
-        </div>
+        </div> -->
+
+        <hr>
 
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section4) %>
         </div>
+
+        <div class="constrained">
+            <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
+          </a>
+            <div class="caption" id="reum-caption"> “Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
+        </div>
   
-      
-        <img src="assets/mountain-goats-capture-W.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="hidden-mobile">
+        <!-- <img src="assets/mountain-goats-capture-W.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="hidden-mobile">
         <img src="assets/mountain-goats-capture-mobile.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="visible-mobile">
-        <div class="captionLeft">Source: National Park Service (Emily M. Eng / The Seattle Times)</div>
+        <div class="captionLeft">Source: National Park Service (Emily M. Eng / The Seattle Times)</div> -->
         
         <div class="floating constrained">
           <%= t.include("partials/_ad.html", { type: "square" }) %>
@@ -71,27 +81,39 @@
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section5) %>
         </div>
+
+        <div class="constrained">
+            <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
+          </a>
+            <div class="caption" id="smokeyPoint-caption"> “Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
+        </div>
+
+        <hr>
   
         <div class="floating constrained">
           <div>
-              <img src="assets/photos/GoatRelocation_rattlesnake.jpg" alt="Goat standing on Rattlesnake Ledge" aria-describedby="rattlesnake-caption">
+              <img src="assets/photos/inslee.jpg" alt="Ribbon cutting at Smokey Point Behavioral hospital" aria-describedby="inslee-caption">
             </a>
-              <div class="caption" id="rattlesnake-caption">A mountain goat that once lived at Olympic National Park took up temporary residence at Rattlesnake Ledge, a popular destination for hikers near North Bend. The goat was not afraid of people and not aggressive, but it got within about 12 feet of people, said hiker Hella Döge. "The goat was actually following us. Everyone shuffled around and tried to keep distance from the goat," she said. (Photo courtesy of Hella Döge)</div>
+              <div class="caption" id="inslee-caption">AIn July 2017,  Gov. Jay Inslee and Tulalip Tribes Chairwoman Marie Zackuse cut the ribbon at the Smokey Point Behavioral Hospital grand opening. Since 2012, the state has approved or expanded 10 private psychiatric hospitals, nine of which are for-profit. (Kalvin Valdillez / Tulalip News)</div>
           </div>
         </div>
+
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section6) %>
         </div>
 
+        <div>
+            <img src="assets/photos/torgesen-family.jpg" alt="Torgesen family" aria-describedby="torgesenFamily-caption">
+          </a>
+            <div class="caption" id="torgesenFamily-caption"> “Four of Rosemary Torgesen’s seven children visit her grave in Shoreline. From left: Marjorie Erickson, Jeff Torgesen, Maurya Smith and Douglas Torgesen. (Erika Schultz / The Seattle Times)</div>
+        </div>
+        <hr>
+        
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section7) %>
         </div>
+
         <hr>
-  
-        <div class="constrained">
-          <img src="assets/mountain-goat-run-w.jpg" alt="Running mountain goat">
-          <div class="captionLeft">(Mark Nowlin / The Seattle Times)</div>
-        </div>
   
     </main>
     <%= t.include("partials/_navBottom.html") %>
