@@ -1,4 +1,5 @@
 @import "seattletimes";
+@import "bc-preroll";
 
 .visible-mobile {
     display: none !important;
@@ -20,12 +21,18 @@
   
   .constrained {
   margin: auto;
-  max-width:800px;
-  padding:0 16px;
+  max-width: 800px;
+  padding: 0 16px;
+  }
+
+  .indent {
+    margin: auto;
+    max-width: 700px;
+    padding: 0 16px;
   }
   
   .byline {
-    padding:40 0px;
+    padding: 40 0px;
   }
   
   .caption {
@@ -94,4 +101,16 @@
       width: 150px;
     }
       }
+  }
+
+  .triple {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 16px;
+    display: flex;
+    background: @df-light-gray;
+
+    .video-text {
+      padding: 10px 20px 0px 20px;
+    }
   }
