@@ -1,23 +1,26 @@
 
 
-# A public crisis, a private toll: How a psychiatric hospital chain’s expansion has failed patients
+# A public crisis, a private toll: PRIVATELY HELD: How a psychiatric hospital chain’s expansion has failed patientsANNOTATE EVERY CHANGE
 
 By Daniel Gilbert
 
 Seattle Times staff reporter
 
 section1:
-On the first of Rosemary Torgesen’s 99 days as a patient at the Smokey Point Behavioral Hospital, her children felt the placement was especially promising — even providential.
+On the first of Rosemary Torgesen’s 99 days as a patient at the Smokey Point Behavioral Hospital, her children felt the placement was especially promising — even providential. 
 
 Rosemary, 78 years old, had come to the brand-new psychiatric hospital in Marysville in a state of delusion, believing that a divine voice was instructing her not to eat or take medication. She had been involuntarily committed at least 17 times before and had always stabilized, returning to a routine centered on church and prayer.
 
 Smokey Point was the first newly built psychiatric hospital in Washington state in decades, drawing patients from all over the state. It happened to be a short drive from where Rosemary lived with one of her seven children. Gov. Jay Inslee himself had attended Smokey Point’s ribbon-cutting a few months earlier, praising its executives for expanding access to mental health care.
 
-“Isn’t it a joy to know that hundreds of Washingtonians are going to get better because of the Smokey Point Behavioral Hospital?” Inslee said at the July 2017 event.
+:end
+section2:
+
+2222“Isn’t it a joy to know that hundreds of Washingtonians are going to get better because of the Smokey Point Behavioral Hospital?” Inslee said at the July 2017 event.
 
 The Torgesens couldn’t have known that a week before Rosemary was admitted, in March 2018, state inspectors had found problems so grave that they created a “high risk of serious harm, injury and death.” They didn’t know about patient-safety lapses that authorities had documented at other hospitals run by the same company, a for-profit firm called US HealthVest. But as weeks turned to months, they grasped that something was profoundly wrong with their mother’s care.
 
-Rosemary had arrived high-stepping around the hospital. Three months into her stay, she couldn’t walk, had developed a dangerous wound from being bedbound, and appeared thinner in the face. As the Torgesens pressed for more treatment options, the hospital’s staff had a different idea: referring Rosemary to hospice care and discharging her home, to die.
+Rosemary had arrived high-stepping around the hospital. Three months into her stay, she couldn’t walk, had developed a dangerous wound from being bedbound, and appeared alarmingly gaunt. As the Torgesens pressed for more treatment options, the hospital’s staff had a different idea: referring Rosemary to hospice care and discharging her home, to die.
 
 Her family was stunned.
 
@@ -28,14 +31,15 @@ US HealthVest is at the vanguard of a quiet transformation in how patients recei
 Yet the state’s early embrace of US HealthVest, after Washington’s own failures to meet patient needs, has brought a new peril into the system: a model proven to deliver profits that has routinely failed vulnerable patients, an investigation by The Seattle Times has found.
 
 Smokey Point’s first chief executive, with no medical license, would weigh in on which patients to admit. Patients with serious medical conditions worsened while waiting for treatment that the hospital couldn’t provide. Executives failed to boost staffing despite pleas from employees and findings by regulators that conditions were unsafe.
-:end
 
-section2:
-2222As Smokey Point executives prepared for inspections, they repeatedly instructed nursing staff to fill in records that were incomplete or missing from patient files — even when it would have been impossible to accurately recall details, according to internal records and interviews with staffers. At another US HealthVest facility in Georgia, law enforcement accused the staff of “covering up their own neglect of patients” and “fraudulently documenting care.”
+:end
+section3:
+
+3333As Smokey Point executives prepared for inspections, they repeatedly instructed nursing staff to fill in records that were incomplete or missing from patient files — even when it would have been impossible to accurately recall details, according to internal records and interviews with staffers. At another US HealthVest facility in Georgia, law enforcement accused the staff of “covering up their own neglect of patients” and “fraudulently documenting care.”
 
 The problems at Smokey Point — and three other of the seven psychiatric hospitals US HealthVest operates across three states — surface in a review of thousands of pages of state health and law-enforcement records, internal documents, hospital records shared by patients and their families with The Times, and interviews with roughly two dozen current and former employees.
 
-Last year, Smokey Point’s own incident log showed there were 88 assaults, 33 discoveries of contraband and 26 employee injuries. When state inspectors reviewed 13 medical files earlier this year, they found nine patient-safety incidents that never made it into the log, including suicide attempts, assaults, medication errors and sexual abuse.
+Last year, Smokey Point’s own incident log showed 88 assaults, 33 discoveries of contraband and 26 employee injuries. When state inspectors reviewed 13 medical files earlier this year, they found nine patient-safety incidents that never made it into the log, including suicide attempts, assaults, medication errors and sexual abuse.
 
 Many mental-health facilities are struggling to recruit and retain qualified staff. Ensuring the safety of patients — who are often at risk of harming themselves or others — can be hard even in ideal circumstances. But no mental health care operator in Washington state has pushed to expand as rapidly as US HealthVest, and few if any have racked up so many serious violations so quickly, records show.
 
@@ -43,11 +47,17 @@ Government inspectors have found violations at Smokey Point on 12 separate visit
 
 Separately, the Department of Health denied US HealthVest’s application to build a new psychiatric hospital in Bellingham.
 
-“They’ve demonstrated that they don’t have a good track record of being able to care for patients safely, so we’re not going to allow them to do that,” Nate Weed, director of the Department of Health’s Office of Community Health Systems, said in an interview.
+:end
+section4:
+
+444“They’ve demonstrated that they don’t have a good track record of being able to care for patients safely, so we’re not going to allow them to do that,” Nate Weed, director of the Department of Health’s Office of Community Health Systems, said in an interview.
 
 Yet the limits of this statement were on display just a 15-minute drive away from the regulator’s offices near Olympia, where US HealthVest recently opened a second psychiatric hospital. The department approved it before Smokey Point had opened its doors.
 
-Richard Kresch, US HealthVest’s chief executive, did not respond to requests for an interview or provide answers to written questions. In a general response, he wrote: “At Smokey Point, we care for many of the sickest members of our community. Our patients turn to us in crisis and we take our responsibility to provide the highest level of care in the safest of therapeutic environments with the upmost seriousness. We are first and foremost caregivers and the health and safety of our patients is our top priority.”
+:end
+section5:
+
+5555Richard Kresch, US HealthVest’s chief executive, did not respond to requests for an interview or provide answers to written questions. In a general response, he wrote: “At Smokey Point, we care for many of the sickest members of our community. Our patients turn to us in crisis and we take our responsibility to provide the highest level of care in the safest of therapeutic environments with the upmost seriousness. We are first and foremost caregivers and the health and safety of our patients is our top priority.”
 
 He added, “all of our hospitals have been fully compliant with all state and federal regulations.”
 
@@ -56,10 +66,11 @@ Many Smokey Point employees asked to remain anonymous because they were warned b
 In March of 2018, a nurse told state inspectors that there had been “many suicide attempts,” including three on a single recent day. “It was only a matter of time until someone dies,” the nurse said, because when patients need more staff to check on them “there is no one available.”
 
 Inspectors asked the chief nursing officer about staffing and recorded this explanation: “corporate leadership asked him to be within budget.”
-:end
 
-section3:
-# “Immediate jeopardy”
+:end
+section6:
+
+## 6666“Immediate jeopardy”
 
 Kresch, US HealthVest’s founder, has made a career developing psychiatric hospitals and selling them for a profit. A psychiatrist by training, Kresch ran Ascend Health before selling it to industry giant Universal Health Services in 2012 for $503 million in cash.
 
@@ -68,9 +79,9 @@ US HealthVest was incorporated four months later, drawing well-heeled investors 
 Washington state was one of the first places where US HealthVest looked to establish a presence, and its timing was good. The state was in the midst of a mental-health crisis, with so few inpatient beds that emergency rooms were holding patients who had been involuntarily committed. The state supreme court in 2014 found this practice illegal, ratcheting up pressure on state officials to add more beds. Smokey Point directly addressed this need.
 
 :end
+section7:
 
-section4:
-44444To open the hospital, US HealthVest’s proposal had to pass muster with the Department of Health. Given that US HealthVest was a new company, the regulator considered the track record of Ascend, which had been run by the same executive team.
+7777To open the hospital, US HealthVest’s proposal had to pass muster with the Department of Health. Given that US HealthVest was a new company, the regulator considered the track record of Ascend, which had been run by the same executive team.
 
 The department conducted a limited review of Ascend that turned up no red flags. Had the regulator looked a little further, it would have discovered serious violations found by government inspections at multiple Ascend hospitals within just a year.
 
@@ -89,10 +100,11 @@ A couple of nights later, a nurse asked Beall for an additional staffer because 
 At Smokey Point, a staffing plan calls for one nursing employee for every four to six patients, depending on the unit. Still, a staff member can be alone on the floor with a dozen or more patients for at least an hour, according to current and former employees. While hospitals in Washington can be fined if they fail to staff appropriately, the law doesn’t apply to psychiatric hospitals like Smokey Point.
 
 Christina Perry, a Smokey Point nurse, often found herself alone tending to as many as eight patients for hours. “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” she later said.
-:end
 
-section5:
-55555There is no question that some patients have benefited from care they received at Smokey Point, which has provided Snohomish County residents with a treatment option much closer to home and their support networks.
+:end
+section8:
+
+8888There is no question that some patients have benefited from care they received at Smokey Point, which has provided Snohomish County residents with a treatment option much closer to home and their support networks.
 
 One man, whose 17-year-old daughter spent three weeks there, said she left in much better health.
 
@@ -107,28 +119,31 @@ One of the first hospital staffers to take his concerns public was Chris Lurvey,
 Cammy Hart-Anderson, a Snohomish County official whose division oversees mental-health services, also filed a complaint with the Department of Health. Patients had testified in involuntary commitment hearings that they didn’t feel safe, she wrote, and neither did county staff.
 
 The next month, in March 2018, the Department of Health dispatched six inspectors to Smokey Point. Among their findings:
+
 :end
+section9:
 
-section6:
-• A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.
+9999A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.
 
-• Another patient had a plan to commit suicide by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.
+Another patient had a plan to commit suicide by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.
 
-• A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.
+A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.
 
-• One diabetic patient had a foot ulcer and had a referral to a wound-care clinic “as soon as possible.” Instead, the wound worsened for another nine days until the patient was sent to a medical hospital.
+One diabetic patient had a foot ulcer and had a referral to a wound-care clinic “as soon as possible.” Instead, the wound worsened for another nine days until the patient was sent to a medical hospital.
 
-• An aggressive patient was found having sex with a developmentally disabled woman, hours after he was ordered to stay five feet away from all female patients. When a mental-health worker asked if the encounter was consensual, the woman said it was. “He was sent by God to have babies with me,” she said, according to state investigative findings. US HealthVest didn’t respond to whether the matter was referred to law enforcement.
+An aggressive patient was found having sex with a developmentally disabled woman, hours after he was ordered to stay five feet away from all female patients. When a mental-health worker asked if the encounter was consensual, the woman said it was. “He was sent by God to have babies with me,” she said, according to state investigative findings. US HealthVest didn’t respond to whether the matter was referred to law enforcement.
+
 :end
+section10:
 
-section7:
-7777The inspectors declared a state of “immediate jeopardy,” the most serious kind of violation that can put patient lives in danger, triggering a process to cut off the hospital’s access to federal funds. For facilities like Smokey Point that rely heavily on reimbursement from taxpayer-funded Medicare and Medicaid, such a penalty could have had a dire financial impact.  
+1010The inspectors declared a state of “immediate jeopardy,” the most serious kind of violation that can put patient lives in danger, triggering a process to cut off the hospital’s access to federal funds. For facilities like Smokey Point that rely heavily on reimbursement from taxpayer-funded Medicare and Medicaid, such a penalty could have had a dire financial impact.  
 
 A week after the inspectors issued their findings, Smokey Point admitted Rosemary Torgesen.
-:end
 
-section8:
-# A more appropriate place
+:end
+section11:
+
+## 1111A more appropriate place
 
 Rosemary stood 5 feet tall and weighed barely 100 pounds, a diminutive stature that contrasted with an exceptionally strong will.
 
@@ -153,10 +168,11 @@ A month later, on May 8, a Smokey Point psychiatrist finally sent Rosemary to No
 Rosemary herself was frustrated. “This is a waste of money,” she told the counselor, rattling off the lab costs, the ambulance rides and the staff’s time.
 
 It was, in fact, a wasted effort. Northwest said its geropsychiatric unit was full and couldn’t admit her. She was sent back to Smokey Point.
-:end
 
-section9:
-# “Hundred percent success rate”
+:end
+section12:
+
+## 121212“Hundred percent success rate”
 
 Kresch, US HealthVest’s chief executive, has spoken candidly about the company’s focus on profitability, boasting of a “hundred percent success rate in turning around all of the distressed hospitals we have acquired.”
 
@@ -166,43 +182,44 @@ A different picture, though, emerges from regulatory and court records. Regulato
 
 Similar problems emerged at the company’s two hospitals in Georgia. 
 
-At the Ridgeview Institute in Smyrna, on the outskirts of Atlanta, regulators found the hospital was providing “generic non-individualized treatment.” The shortcomings were more serious a second hospital US HealthVest opened 60 miles east, the Ridgeview Institute in Monroe.
+At the Ridgeview Institute in Smyrna, on the outskirts of Atlanta, regulators found the hospital was providing “generic non-individualized treatment.” The shortcomings were more serious at a second hospital US HealthVest opened 60 miles east, the Ridgeview Institute in Monroe.
 
-Last year, Georgia regulators received a complaint that nursing staff at the Monroe facility “are forced to provide minimal and unsafe care and monitoring to patients.” It expressed particular concern about an unnamed young woman, admitted to Ridgeview in January of 2018.
+Last year, Georgia regulators received a complaint that nursing staff at the Monroe facility “are forced to provide minimal and unsafe care and monitoring to patients.” The tipster expressed particular concern about an unnamed young woman, admitted to Ridgeview in January of 2018.
 
 :end
+section13:
 
-section10:
-101010The patient in question was Sarah Reum, a 22-year-old with hazel eyes and a smooth voice that had won singing competitions. She had two young daughters, a tumultuous relationship with their father and a mental illness she had struggled with since she was a teen.
+131313The patient in question was Sarah Reum, a 22-year-old with hazel eyes and a smooth voice that had won singing competitions. She had two young daughters, a tumultuous relationship with their father and a mental illness she had struggled with since she was a teen.
 
 Reum was admitted to Ridgeview under Georgia’s involuntary treatment law and flagged as a suicide risk. She, like all patients, was to be checked on at least every 15 minutes.
 
-On her eighth day at Ridgeview, Reum called her mother and asked to speak to her 4-year-old daughter. “‘I love you so much, I love you so much,’ she probably said it nine times,” her mother, Stacey Jenkins, recalled.
+On her eighth day at Ridgeview, Reum called her mother and asked to speak to her 3-year-old daughter. “‘I love you so much, I love you so much,’ she probably said it nine times,” her mother, Stacey Jenkins, recalled.
 
 The next day, hospital records show that Reum was checked on as required. But its camera footage, reviewed by The Times, tells a different story.
+
 :end
 
-			At 4:04 p.m., a camera records Reum sitting in a chair in view of the nursing station, hands to her face, shoulders shaking. After two minutes, she gets up and walks down the hall to her room.
+        At 4:04 p.m., a camera records Reum sitting in a chair in view of the nursing station, hands to her face, shoulders shaking. After two minutes, she gets up and walks down the hall to her room.
 
-			Fifteen minutes go by without anyone checking on her. Thirty minutes pass. Forty-five minutes. An hour.
+        Fifteen minutes go by without anyone checking on her. Thirty minutes pass. Forty-five minutes. An hour.
 
-			At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come. -- video 1
+        At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come. A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.
 
-			A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room. -- video 2
+        More staff come running, followed by police and paramedics, but they are too late.
 
-			More staff come running, followed by police and paramedics, but they are too late. -- video 4
+        Shortly after 6 p.m., Sarah Reum was declared dead by suicide.
 
-			Shortly after 6 p.m., Sarah Reum was declared dead by suicide.
+section14:
 
-section11:
-
-111111In her room was a note scrawled in pink marker. “I love my baby girls so much,” Reum had written. They were her reason for living and she couldn’t see them, she wrote, “so I do not want to live.”
-
-Health inspectors reviewed records of all four units at Ridgeview over 16 days, finding that they were inadequately staffed between 31 percent and 69 percent of the time.
+1414Health inspectors reviewed records of all four units at Ridgeview over 16 days, finding that they were inadequately staffed between 31 percent and 69 percent of the time.
 
 Jenkins and Reum’s father, Ricky Reum, didn’t know that no one checked on their daughter for an hour until contacted by a Times reporter. They didn’t know the unit where their daughter stayed was short-staffed the day she died. They didn’t know that regulators faulted the hospital for their daughter’s death, or that the hospital had fired two employees as a result and hired a new head of nursing — all of which it described as “corrective actions.”
 
-They were also unaware that Gina Holbrooks, a Monroe Police detective who investigated Reum’s death, concluded that the hospital’s observation log “was falsified as if staff was actually providing care to their patients.” In May, Reum’s parents and the father of her daughters sued US HealthVest. The case is pending.
+They were also unaware that Gina Holbrooks, a Monroe Police detective who investigated Reum’s death, concluded that the hospital’s observation log “was falsified as if staff was actually providing care to their patients.”
+
+In May, Reum’s parents and the father of her daughters sued US HealthVest. The company is contesting the lawsuit and denies that it falsified records, according to its legal response.
+
+Jenkins still chokes up thinking about milestones Reum is missing, like her older daughter’s first day of school this month. “She didn’t get to see it because somebody didn’t do their job,” she said.
 
 The state inspectors who investigated Reum’s death determined the hospital had fixed the problems by the time they showed up two months after her death. Six months later, law enforcement responded to another emergency at the hospital.
 
@@ -214,12 +231,10 @@ Holbrooks, the detective who also had investigated Sarah Reum’s death, didn’
 
 “Once again Ridgeview Institute has put more effort into covering up their own neglect of patients,” she wrote, “by fraudulently documenting care.”
 
-///US HealthVest comment TK.///
-
 :end
+section15:
 
-section12:
-# “Half dead”
+## 1515“Half dead”
 
 At Smokey Point, some employees hoped US HealthVest would take Washington state’s investigation to heart and improve conditions. Instead, the turmoil only intensified.
 
@@ -230,14 +245,13 @@ The three employees filed a complaint with the National Labor Relations Board, a
 Other employees left of their own accord. Christina Perry tendered her resignation in mid-May. “I do not feel safe working here since there is not enough staff,” she wrote to the chief nursing officer.
 
 :end
+section16:
 
-section13:
-
-131313Concern wasn’t limited to staff tending to patients. Lejla Marusic, a senior manager whose job was negotiating with insurance companies, also resigned in May. She said of the hospital’s executives, “They were only focused on passing the next audit, not the well-being of patients.”
+1616Concern wasn’t limited to staff tending to patients. Lejla Marusic, a senior manager whose job was negotiating with insurance companies, also resigned in May. She said of the hospital’s executives, “They were only focused on passing the next audit, not the well-being of patients.”
 
 One persistent focus has been on supplementing patient files missing required paperwork, a struggle compounded by short-staffing and turnover.
 
-Patient files, tagged with sticky notes to signal missing information, have at times been so numerous that they were deposited in the hospital’s “yoga room,” internal records show. Employees who failed to do so would face disciplinary action, they were told as recently as March.
+Patient files, tagged with sticky notes to signal missing information, have at times been so numerous that they were deposited in the hospital’s “yoga room,” internal records show. Employees who failed to complete the charts would face disciplinary action, they were told as recently as March.
 
 A new chief nursing officer, who replaced Beall last fall, also told staff, “Don’t sign for something you didn’t witness.” But several current and former employees said that too much time had passed to accurately fill in certain incomplete records, such as what a patient was doing in 15-minute intervals days or weeks earlier.
 
@@ -257,14 +271,14 @@ Smokey Point’s staff had become so alarmed at her condition that they sent her
 
 “Patient does not appear in imminent danger,” the doctor wrote on June 28. “It appears she needs more mental health treatment.” She was returned to Smokey Point.
 
-Smokey Point’s staff suggested a new course: discharging Rosemary home to her family and referring her for hospice care.Only then did Rosemary’s children suspect their mother had been neglected. “It was them admitting that they’re incapable of caring for her,” Jeff Torgesen, her oldest son, said. “Most concerning was that they were just comfortable discharging her to us.”
+Smokey Point’s staff suggested a new course: discharging Rosemary home to her family and referring her for hospice care.
 
 On June 29, Smokey Point held an emergency meeting with its medical director, chief executive and one of Rosemary’s daughters. Rosemary hadn’t had anything to eat or drink for at least four days. The hospital would send her to Providence and not accept her back.
 
 :end
+section17:
 
-section14:
-# “A strong supporter”
+## 1717“A strong supporter”
 
 Despite Smokey Point’s struggles, US HealthVest benefited from a key source of support: Gov. Inslee and his administration.
 
@@ -286,16 +300,14 @@ An image of Inslee at Smokey Point’s ribbon-cutting is prominently displayed o
 
 “Governor Inslee is a strong supporter of our model,” the company wrote in a memo for regulators last August, including a link to a YouTube video of his remarks at Smokey Point’s opening.
 
-US HealthVest brushed off the findings of the Department of Health’s investigation, saying “100% of the issues raised in the survey were addressed to the satisfaction of state surveyors, and, since opening, Smokey Point has, at all times, followed all federal and state requirements.”The claim was false. Just two weeks earlier, health inspectors had again found that Smokey Point failed to meet comply with federal standards for keeping patients safe.
-
-In an interview, Inslee compared Smokey Point to a promising athlete who “fumbles” and needs more coaching. “We can’t just decide we’re not going to open facilities because at one point there was care that was not sufficiently of quality, which we’re now improving,” he said. “We are experiencing what is frequently the situation when you have rapid expansion of any organizational pursuit, that you have bugs in the system.” 
+In an interview, Inslee compared Smokey Point to a promising athlete who “fumbles” and needs more coaching. “We can’t just decide we’re not going to open facilities because at one point there was care that was not sufficiently of quality, which we’re now improving,” he said. “We are experiencing what is frequently the situation when you have rapid expansion of any organizational pursuit, that you have bugs in the system.”
 
 :end
+section18:
 
-section15:
-# Fallout
+## 1818Fallout
 
-Almost as soon as Rosemary Torgesen was admitted into Providence Regional Medical Center, an internal-medicine doctor recognized something his colleagues in the emergency department had not.“It is likely that patient will need to undergo medical treatment,” he wrote, “to treat her acute medical and mental illness.”Still, the doctors at Providence seemed to be at a loss for how to treat Rosemary. Her problem, some felt, was psychiatric and not medical, but Smokey Point wouldn’t take her back. Doctors at Providence asked Northwest Hospital to accept her but they were losing hope.
+The staff at Providence Regional Medical Center seemed to be at a loss for how to treat Rosemary Torgesen. Her problem, some felt, was psychiatric and not medical, but Smokey Point wouldn’t take her back. Doctors at Providence asked Northwest Hospital to accept her but they were losing hope.
 
 Rosemary had refused to eat or drink in life-sustaining quantities for weeks. She was sick and frail, the doctors told her children.
 
@@ -309,11 +321,7 @@ Providence staff felt she would not survive the artificial feeding.
 
 The feeding tube was removed. On July 20, two days after the discovery of the broken hip, Rosemary Frances Torgesen died.
 
-:end
-
-section16:
-
-161616The primary cause listed on her death certificate is malnutrition.
+The primary cause listed on her death certificate is malnutrition.
 
 The secondary cause: “decompensated schizoaffective disorder” — the deterioration of her mental health.   
 
@@ -322,10 +330,9 @@ Contributing factors: “right hip fracture, right humerus fracture.”
 In just over three months at Smokey Point, her mental and physical health had deteriorated beyond survival.
 
 :end
+section19:
 
-section17:
-
-171717The Torgesens were bereft — and angry. Angry at Northwest Hospital, which had declined to admit her despite their wishes. Angry at Providence, which recognized only at the eleventh hour that their mother had a badly broken hip. Mostly they were angry at Smokey Point. Barely a week after she died, Jeff Torgesen, the oldest of her children, began filing complaints with the Department of Health.
+1919The Torgesens were bereft — and angry. Angry at Northwest Hospital, which had declined to admit her despite their wishes. Angry at Providence, which recognized only at the eleventh hour that their mother had a badly broken hip. Mostly they were angry at Smokey Point. Barely a week after she died, Jeff Torgesen, the oldest of her children, began filing complaints with the Department of Health.
 
 Northwest Hospital had told Smokey Point that, as a King County facility, it was required to give priority to local patients, according to an email in Rosemary’s medical records. A spokeswoman for UW Medicine, which operates the hospital, declined to comment about her case but said that family members and psychiatric hospitals “may not have the legal right to determine if a patient is transferred to another facility for mental health care.”
 
@@ -335,13 +342,12 @@ Last August, a Department of Health investigator arrived at Smokey Point to revi
 
 Less than a month later, on Sept. 13, the Department of Health determined that Smokey Point was back in compliance with state and federal standards, meaning its Medicaid and Medicare funding was safe.
 
-The hospital’s original management team is gone. A new CEO lasted only six months before resigning in March. Inadequate staffing persisted, according to inspections, lawsuits filed by former employees and internal correspondence. In recent weeks the hospital has posted job ads for registered nurses with signing bonuses up to $5,000, an initiative that has been part of its correction plans.
+The reprieve, however, was fleeting. In January, inspectors returned to Smokey Point and found many of the same violations they’d identified last year. They cited serious failures again in February, April and June before reaching the corrective action plan with US HealthVest.
 
 :end
+section20:
 
-section18:
-
-181818Jeff Torgesen, however, remains dissatisfied with the stepped-up scrutiny and has pushed law enforcement to open a homicide investigation. The Marysville Police Department is investigating Rosemary’s death but not, at this stage, as a homicide, a spokesman said. 
+2020Jeff Torgesen, however, remains dissatisfied with the stepped-up scrutiny and has pushed law enforcement to open a homicide investigation. The Marysville Police Department is investigating Rosemary’s death but not, at this stage, as a homicide, a spokesman said. 
 
 “I’ve been consumed,” Jeff Torgesen said. “I feel responsible, not just to avenge my mom, but to show her treatment isn’t being cast aside, being swept under the rug.”
 
@@ -355,4 +361,4 @@ Two minutes later the finance chief emailed again. Rosemary had secondary covera
 
 :end
 
-Daniel Gilbert: dgilbert@seattletimes.com; on Twitter: @ByDanielGilbert.
+Daniel Gilbert: dgilbert@seattletimes.com; on Twitter: @ByDanielGilbert

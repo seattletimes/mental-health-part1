@@ -12,10 +12,9 @@
 
     <header>
       <h1>A public crisis, a private toll: How a psychiatric hospital chain’s expansion has routinely put patients, staff in peril</h1>
-      <div class="floating constrained">
-          <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
-        </a>
-      <div class="captionLeft">(XXXXX / The Seattle Times)</div>
+      <div>
+        <img src="assets/photos/photo-torgesen.jpg" alt="Photo of Torgesen" aria-describedby="photoTorgesen-caption"></a>
+        <div class="caption" id="photoTorgesen-caption"> “Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. “She was a strong, strong woman.” (Erika Schultz / The Seattle Times)</div>
       </div>
     </header>
 
@@ -31,56 +30,59 @@
           <%= t.renderMarkdown(archieml.text1.section1) %>
       </div>
       
-          <div class="floating constrained">
-            <%= t.include("partials/_ad.html", { type: "square" }) %>
-          </div>
+      youtube inslee
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section2) %>
       </div>
 
-      <hr>
+      <div class="floating constrained">
+        <%= t.include("partials/_ad.html", { type: "square" }) %>
+      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section3) %>
       </div>
-
-      <div>
-          <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
-        </a>
-          <div class="caption" id="smokeyPoint-caption"> “Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
-      </div>
+      nate weed photo 
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section4) %>
       </div>
 
-      <div>
-          <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "5845053912001", runtime: "1:40" }) %>
-          <div class="caption">XXXXX (Erika Schultz / The Seattle Times)</div>
-        </div>
+richard response
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section5) %>
       </div>
 
-      <div class="indent">
+     <hr>
+
+      <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section6) %>
       </div>
-        
-        <!-- <div class="floating constrained">
-          <div>
-              <img src="assets/photos/GoatRelocation_goats_truck_vert.jpg" alt="Goats dangling from a helicopter" aria-describedby="truck-caption">
-            </a>
-              <div class="caption" id="truck-caption">Wearing eye masks, horn pads and leg straps, goats dangle from a helicopter. (Ramon Dompor / The Seattle Times)</div>
-          </div>
-        </div> -->
+
+      <div>
+        <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
+      </a>
+        <div class="caption" id="smokeyPoint-caption"> “Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
+    </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section7) %>
       </div>
 
-      <hr>
+      <div>
+        <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "5845053912001", runtime: "1:40" }) %>
+        <div class="caption">XXXXX (Erika Schultz / The Seattle Times)</div>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section8) %>
+     </div>
+
+     <div class="indent">
+      <%= t.renderMarkdown(archieml.text1.section9) %>
+    </div>
   
         <!-- <img src="assets/mountain-goats-capture-W.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="hidden-mobile">
         <img src="assets/mountain-goats-capture-mobile.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="visible-mobile">
@@ -88,26 +90,37 @@
         
 
       <div class="constrained">
-         <%= t.renderMarkdown(archieml.text1.section8) %>
+         <%= t.renderMarkdown(archieml.text1.section10) %>
+      </div>
+
+      <hr>
+
+      <div class="floating constrained">
+        <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
+      </a>
+    <div class="captionLeft">(XXXXX / The Seattle Times)</div>
+    </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section11) %>
       </div>
 
       <hr>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section9) %>
+        <%= t.renderMarkdown(archieml.text1.section12) %>
       </div>
-
-          <div class="constrained">
-              <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
-            </a>
-              <div class="caption" id="reum-caption"> Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
-          </div>
-
-
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section10) %>
-      </div>
+        <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
+      </a>
+        <div class="caption" id="reum-caption"> Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
+    </div>
+
+    <div class="constrained">
+      <%= t.renderMarkdown(archieml.text1.section13) %>
+    </div>
+
           <div class="triple">
             <div class="video-text">
               <p>At 4:04 p.m., a camera records Reum sitting in a chair in view of the nursing station, hands to her face, shoulders shaking. After two minutes, she gets up and walks down the hall to her room.</p>
@@ -126,7 +139,7 @@
               </div>
   
               <div class="video-text">
-                <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
+                <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come. A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
               </div>
             </div>
 
@@ -136,7 +149,7 @@
               </div>
   
               <div class="video-text">
-                <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
+                <p>More staff come running, followed by police and paramedics, but they are too late.</p>
               </div>
             </div>
 
@@ -157,13 +170,13 @@
                 </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section11) %>
+        <%= t.renderMarkdown(archieml.text1.section14) %>
       </div>
 
       <hr>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section12) %>
+        <%= t.renderMarkdown(archieml.text1.section15) %>
       </div>
 
           <div>
@@ -173,7 +186,7 @@
           </div>
 
         <div class="constrained">
-          <%= t.renderMarkdown(archieml.text1.section13) %>
+          <%= t.renderMarkdown(archieml.text1.section16) %>
         </div>
 
       <hr>
@@ -187,30 +200,21 @@
         </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section14) %>
+        <%= t.renderMarkdown(archieml.text1.section17) %>
       </div>
 
       <hr>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section15) %>
-      </div>
-
-            <div>
-              <img src="assets/photos/photo-torgesen.jpg" alt="Photo of Torgesen" aria-describedby="photoTorgesen-caption"></a>
-              <div class="caption" id="photoTorgesen-caption"> “Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. “She was a strong, strong woman.” (Erika Schultz / The Seattle Times)</div>
-            </div>
-
-      <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section16) %>
+        <%= t.renderMarkdown(archieml.text1.section18) %>
       </div>
 
       <div class="floating constrained">
-          <%= t.include("partials/_ad.html", { type: "square" }) %>
-        </div>
+        interactive <%= t.include("partials/_ad.html", { type: "square" }) %>
+      </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section17) %>
+        <%= t.renderMarkdown(archieml.text1.section19) %>
       </div>
 
       <div>
@@ -220,7 +224,7 @@
       </div>
 
       <div class="constrained">
-          <%= t.renderMarkdown(archieml.text1.section18) %>
+          <%= t.renderMarkdown(archieml.text1.section20) %>
         </div>
 
       <div class="constrained">
