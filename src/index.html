@@ -11,10 +11,10 @@
       <!-- <%= t.include("partials/_ad.html", { type: "banner" }) %> -->
 
     <header>
-      <h1>A public crisis, a private toll: How a psychiatric hospital chain’s expansion has routinely put patients, staff in peril</h1>
+      <h1>Seeing need and seeking profit, a company’s push to expand psychiatric care brought peril</h1>
       <div>
         <img src="assets/photos/photo-torgesen.jpg" alt="Photo of Torgesen" aria-describedby="photoTorgesen-caption"></a>
-        <div class="caption" id="photoTorgesen-caption"> “Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. “She was a strong, strong woman.” (Erika Schultz / The Seattle Times)</div>
+        <div class="caption" id="photoTorgesen-caption"> “Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. (Erika Schultz / The Seattle Times)</div>
       </div>
     </header>
 
@@ -96,10 +96,12 @@ richard response
       <hr>
 
       <div class="floating constrained">
-        <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
-      </a>
-    <div class="captionLeft">(XXXXX / The Seattle Times)</div>
-    </div>
+          <div>
+            <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
+          </a>
+            <div class="caption" id="rosemary-caption"> (XXXXX / The Seattle Times)</div>
+        </div>
+      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section11) %>
