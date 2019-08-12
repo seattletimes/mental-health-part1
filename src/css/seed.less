@@ -31,7 +31,10 @@
   .indent {
     margin: auto;
     max-width: 700px;
-    padding: 0 16px;
+    padding: 10px 16px;
+    list-style-position: outside;
+    font-weight: 600;
+    line-height: 1.4;
   }
   
   .byline {
@@ -66,12 +69,16 @@
   }
   
   hr {
-      max-width: 350px;
+      max-width: 300px;
       width: 50%;
-      height: 6px;
+      height: 3px;
       background: #444;
       border: none;
-      margin: 40px auto;
+      margin: 25px auto;
+
+      @media @mobile {
+        margin: 10px auto;
+      }
   }
   
   main.content {
@@ -108,10 +115,20 @@
 
   .triple {
     margin: auto;
-    padding: 0 16px;
+    padding: 5px 0px;
     display: flex;
-    max-width: 800px;
+    flex-wrap: wrap;
+    max-width: 780px;
 
+    .image-container {
+      padding: 20px;
+      .flex(0 0 50%);
+
+    @media @mobile {
+      display: block;
+      padding: 10px;
+      }
+    }
     .video-text {
       padding: 10px 20px 0px 20px;
     }
@@ -120,8 +137,13 @@
   .quote {
     display: inline-block;
     max-width: 900px;
-    margin: auto;
     height: 100px;
+    padding: 0 0 0 50px;
+
+    @media @mobile {
+      padding: 0;
+      height: auto;
+    }
   }
 
   .photo {
@@ -131,4 +153,16 @@
   .center {
     margin: auto;
     padding: 20px 0px 20px;
+
+    @media @mobile {
+      padding: 10 0 10px;
+    }
+  }
+
+  .line {
+
+    @media @mobile {
+      padding-top: 10px;
+      max-width: 300px;
+    }
   }

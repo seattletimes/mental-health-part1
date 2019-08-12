@@ -48,6 +48,7 @@
       </div>
 
       <div class="floating constrained">
+        <h3>resources go here</h3>
         <%= t.include("partials/_ad.html", { type: "square" }) %>
       </div>
 
@@ -56,7 +57,7 @@
       </div>
 
       <div class="quote">
-        <img src="assets/long-quote.jpg" style="opacity: 0.2">
+        <img src="assets/long-quote.jpg" style="opacity: 0.2">   
         <h5>Last year, Smokey Point’s own incident log showed 88 assaults, 33 discoveries of contraband and 26 employee injuries. State inspectors reviewing 13 medical files found nine patient incidents that never made it into the log, including suicide attempts, assaults, medication errors and sexual abuse.</h5>
       </div>
 
@@ -65,9 +66,11 @@
       </div>
 
       <div class="floating constrained center">
+        <div>
           <img src="assets/photos/weed.jpg" alt="Nate Weed" aria-describedby="weed-caption">
         </a>
           <div class="caption" id="weed-caption"> Nate Weed is director of Community Health Systems at the state Department of Health. (Steve Ringman / The Seattle Times)</div>
+        </div>
       </div>
 
       <div class="constrained">
@@ -92,7 +95,7 @@ richard response
         <h5>“They’ve demonstrated that they don’t have a good track record of being able to care for patients safely, so we’re not going to allow them to do that.”  – Nate Weed, director of the Department of Health’s Office of Community Health Systems</h5>
       </div>
 
-      <div>
+      <div class="photo">
         <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
       </a>
         <div class="caption" id="smokeyPoint-caption"> Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
@@ -114,9 +117,9 @@ richard response
         <%= t.renderMarkdown(archieml.text1.section10) %>
       </div>
       
-      <div>
-        <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "5845053912001", runtime: "1:40" }) %>
-        <div class="caption">XXXXX (Erika Schultz / The Seattle Times)</div>
+      <div class="center">
+        <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "6068745696001", runtime: "XX" }) %>
+        <div class="caption">XXXXX (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
       </div>
 
       <div class="constrained">
@@ -124,49 +127,50 @@ richard response
      </div>
 
      <div class="indent">
-      <%= t.renderMarkdown(archieml.text1.section12) %>
+      <li>A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.</li><br>
+      <li>Another patient had a plan to commit suicide by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.</li><br>
+      <li>A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.</li><br>
+      <li>One diabetic patient had a foot ulcer and had a referral to a wound-care clinic “as soon as possible.” Instead, the wound worsened for another nine days until the patient was sent to a medical hospital.</li><br>
+      <li>An aggressive patient was found having sex with a developmentally disabled woman, hours after he was ordered to stay five feet away from all female patients. When a mental-health worker asked if the encounter was consensual, the woman said it was. “He was sent by God to have babies with me,” she said, according to state investigative findings. US HealthVest didn’t respond to whether the matter was referred to law enforcement.</li>
     </div>
-  
-        <!-- <img src="assets/mountain-goats-capture-W.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="hidden-mobile">
-        <img src="assets/mountain-goats-capture-mobile.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="visible-mobile">
-        <div class="captionLeft">Source: National Park Service (Emily M. Eng / The Seattle Times)</div> -->
-        
 
-      <div class="constrained">
-         <%= t.renderMarkdown(archieml.text1.section13) %>
+    <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section13) %>
+    </div>
+
+    <div class="content line">
+        <img src="assets/line.jpg"></div>
+
+    <div class="floating constrained">
+        <div>
+          <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
+        </a>
+          <div class="caption" id="rosemary-caption"> Rosemary Torgesen is seen  on Christmas Eve in 2017. Just three months later, Torgesen, who had schizophrenia, was involuntarily committed and admitted to Smokey Point Behavioral Hospital. (Courtesy of Jeffrey Torgesen)</div>
       </div>
+    </div>
 
-      <div class="content line">
-          <img src="assets/line.jpg"></div>
+    <div class="constrained">
+      <%= t.renderMarkdown(archieml.text1.section14) %>
+    </div>
 
-      <div class="floating constrained">
-          <div>
-            <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
-          </a>
-            <div class="caption" id="rosemary-caption"> Rosemary Torgesen is seen  on Christmas Eve in 2017. Just three months later, Torgesen, who had schizophrenia, was involuntarily committed and admitted to Smokey Point Behavioral Hospital. (Courtesy of Jeffrey Torgesen)</div>
-        </div>
-      </div>
+    <div class="content line">
+        <img src="assets/line.jpg"></div>
 
-      <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section14) %>
-      </div>
+    <div class="constrained">
+      <%= t.renderMarkdown(archieml.text1.section15) %>
+    </div>
 
-      <div class="content line">
-          <img src="assets/line.jpg"></div>
-
-      <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section15) %>
-      </div>
-
-      <div class="constrained">
-        <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
-      </a>
-        <div class="caption" id="reum-caption"> Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
+    <div class="constrained photo">
+      <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
+    </a>
+      <div class="caption" id="reum-caption"> Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
     </div>
 
     <div class="constrained">
       <%= t.renderMarkdown(archieml.text1.section16) %>
     </div>
+
+    <hr>
 
           <div class="triple">
             <div class="video-text">
@@ -188,32 +192,29 @@ richard response
 
           <div class="triple">
               <div class="image-container">
+                  <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
+                </div>
+              <div class="image-container">
                   <video src="assets/videos/20190710_Georgia-security1.mp4" controls></video>
-              </div>
-  
-              <div class="video-text">
-                <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
               </div>
             </div>
 
           <div class="triple">
               <div class="image-container">
+                  <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
+                </div>
+              <div class="image-container">
                   <video src="./assets/videos/20190710_Georgia-security2.mp4" controls playsinline ></video>
-              </div>
-  
-              <div class="video-text">
-                <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
               </div>
             </div>
 
             <div class="triple">
                 <div class="image-container">
+                    <p>More staff come running, followed by police and paramedics, but they are too late.</p>
+                  </div>
+                <div class="image-container">
                     <video src="assets/videos/20190710_Georgia-security4.mp4" controls></video>
-                </div>
-    
-                <div class="video-text">
-                  <p>More staff come running, followed by police and paramedics, but they are too late.</p>
-                </div>
+                </div>    
               </div>
 
               <div class="triple">
@@ -221,6 +222,8 @@ richard response
                     <p>Shortly after 6 p.m., Sarah Reum was declared dead by suicide.</p>
                   </div>
                 </div>
+
+                <hr>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section17) %>
@@ -251,7 +254,7 @@ richard response
         <%= t.renderMarkdown(archieml.text1.section20) %>
       </div>     
       
-      <div>
+      <div class="photo">
         <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
       </a>
         <div class="caption" id="perry-caption"> “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” says nurse Christina Perry. (Erika Schultz / The Seattle Times)</div>
@@ -278,7 +281,7 @@ richard response
         <div class="content line">
             <img src="assets/line.jpg"></div>
 
-        <div class="floating constrained">
+        <div class="center constrained">
           <div>
               <img src="assets/photos/inslee.jpg" alt="Ribbon cutting at Smokey Point Behavioral hospital" aria-describedby="inslee-caption">
             </a>
@@ -315,8 +318,10 @@ richard response
         <%= t.renderMarkdown(archieml.text1.section26) %>
       </div>
 
-      <div class="floating constrained">
-        interactive <%= t.include("partials/_ad.html", { type: "square" }) %>
+      <div class="floating constrained center">
+        <div>
+          <a href="http://projects-staging.seattletimes.com/formal-amyloid/"> <h3>Rosemary Torgesen's last months</h3><img src="assets/videos/timeline.gif" alt="Timeline or Rosemary Torgesen's last months"></a>
+        </div>
       </div>
 
       <div class="constrained">
@@ -340,12 +345,14 @@ richard response
       </div>
 
       <%= t.include("partials/_dontMiss.html") %>
+
       <section class="constrained">
+          <div class="content line">
+              <img src="assets/line.jpg"></div>
 
             <ul class="aside-text" style="padding-left:0">
                 <h4 style="text-align: center;">CREDITS</h4>
-                <div class="content line">
-                    <img src="assets/line.jpg"></div>
+                
                     <div style="column-count:2;list-style-type: none">
                       <li></li>
                         <li><strong>Reporter:</strong>  Daniel Gilbert</li>
