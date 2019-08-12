@@ -3,3 +3,4 @@
 
 require("component-responsive-frame/child");
 require("./bc-preroll");
+require("./prologue");

@@ -6,15 +6,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-
-      <%= t.include("partials/_nav.html") %>
       <!-- <%= t.include("partials/_ad.html", { type: "banner" }) %> -->
 
     <header>
-      <h1>Seeing need and seeking profit, a company’s push to expand psychiatric care brought peril</h1>
-      <div>
+      <h1>PRIVATELY HELD | A SEATTLE TIMES INVESTIGATION</h1>
+        <div class="content line">
+          <img src="assets/line.jpg"></div>
+        <h2>Seeing need and seeking profit, a company’s push to expand psychiatric care brought peril</h2>
         <img src="assets/photos/photo-torgesen.jpg" alt="Photo of Torgesen" aria-describedby="photoTorgesen-caption"></a>
-        <div class="caption" id="photoTorgesen-caption"> “Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. (Erika Schultz / The Seattle Times)</div>
+        <div class="caption" id="photoTorgesen-caption"> Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. (Erika Schultz / The Seattle Times)</div>
       </div>
     </header>
 
@@ -29,11 +29,22 @@
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section1) %>
       </div>
-      
-      youtube inslee
+
+      <div class="constrained center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MgdNjkI6qoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section2) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" style="opacity: 0.15">
+        <h5>“I got her in there when she was perfectly healthy. She just looked half dead right there.” ­– Douglas Torgesen, son of Rosemary Torgesen</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section3) %>
       </div>
 
       <div class="floating constrained">
@@ -41,47 +52,79 @@
       </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section3) %>
-      </div>
-      nate weed photo 
-
-      <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section4) %>
       </div>
 
-richard response
+      <div class="quote">
+        <img src="assets/long-quote.jpg" style="opacity: 0.2">
+        <h5>Last year, Smokey Point’s own incident log showed 88 assaults, 33 discoveries of contraband and 26 employee injuries. State inspectors reviewing 13 medical files found nine patient incidents that never made it into the log, including suicide attempts, assaults, medication errors and sexual abuse.</h5>
+      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section5) %>
       </div>
 
-     <hr>
-
-      <div class="constrained">
-          <%= t.renderMarkdown(archieml.text1.section6) %>
+      <div class="floating constrained center">
+          <img src="assets/photos/weed.jpg" alt="Nate Weed" aria-describedby="weed-caption">
+        </a>
+          <div class="caption" id="weed-caption"> Nate Weed is director of Community Health Systems at the state Department of Health. (Steve Ringman / The Seattle Times)</div>
       </div>
 
-      <div>
-        <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
-      </a>
-        <div class="caption" id="smokeyPoint-caption"> “Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
-    </div>
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section6) %>
+      </div>
+
+      <div class="floating constrained">
+          <%= t.include("partials/_ad.html", { type: "square" }) %>
+        </div>
+richard response
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section7) %>
       </div>
 
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section8) %>
+      </div>
+
+      <div class="quote">
+        <img src="assets/long-quote.jpg" style="opacity: 0.3">
+        <h5>“They’ve demonstrated that they don’t have a good track record of being able to care for patients safely, so we’re not going to allow them to do that.”  – Nate Weed, director of the Department of Health’s Office of Community Health Systems</h5>
+      </div>
+
+      <div>
+        <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
+      </a>
+        <div class="caption" id="smokeyPoint-caption"> Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
+    </div>
+
+    <div class="content line">
+        <img src="assets/line.jpg"></div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section9) %>
+      </div>
+
+      <div class="quote">
+        <img src="assets/long-quote.jpg" style="opacity: 0.4">
+        <h5>“Our patients turn to us in crisis and we take our responsibility to provide the highest level of care in the safest of therapeutic environments with the upmost seriousness.” ­‑ Richard Kresch, CEO of US HealthVest</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section10) %>
+      </div>
+      
       <div>
         <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "5845053912001", runtime: "1:40" }) %>
         <div class="caption">XXXXX (Erika Schultz / The Seattle Times)</div>
       </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section8) %>
+        <%= t.renderMarkdown(archieml.text1.section11) %>
      </div>
 
      <div class="indent">
-      <%= t.renderMarkdown(archieml.text1.section9) %>
+      <%= t.renderMarkdown(archieml.text1.section12) %>
     </div>
   
         <!-- <img src="assets/mountain-goats-capture-W.jpg" alt="Mountain goats' path from Olympic National Park to the North Cascades" class="hidden-mobile">
@@ -90,27 +133,29 @@ richard response
         
 
       <div class="constrained">
-         <%= t.renderMarkdown(archieml.text1.section10) %>
+         <%= t.renderMarkdown(archieml.text1.section13) %>
       </div>
 
-      <hr>
+      <div class="content line">
+          <img src="assets/line.jpg"></div>
 
       <div class="floating constrained">
           <div>
             <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
           </a>
-            <div class="caption" id="rosemary-caption"> (XXXXX / The Seattle Times)</div>
+            <div class="caption" id="rosemary-caption"> Rosemary Torgesen is seen  on Christmas Eve in 2017. Just three months later, Torgesen, who had schizophrenia, was involuntarily committed and admitted to Smokey Point Behavioral Hospital. (Courtesy of Jeffrey Torgesen)</div>
         </div>
       </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section11) %>
+        <%= t.renderMarkdown(archieml.text1.section14) %>
       </div>
 
-      <hr>
+      <div class="content line">
+          <img src="assets/line.jpg"></div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section12) %>
+        <%= t.renderMarkdown(archieml.text1.section15) %>
       </div>
 
       <div class="constrained">
@@ -120,14 +165,20 @@ richard response
     </div>
 
     <div class="constrained">
-      <%= t.renderMarkdown(archieml.text1.section13) %>
+      <%= t.renderMarkdown(archieml.text1.section16) %>
     </div>
 
           <div class="triple">
             <div class="video-text">
-              <p>At 4:04 p.m., a camera records Reum sitting in a chair in view of the nursing station, hands to her face, shoulders shaking. After two minutes, she gets up and walks down the hall to her room.</p>
+              <p>At 4:04 p.m., a camera records Reum sitting in a chair in view of the nursing station, hands to her face, shoulders shaking.</p>
             </div>
           </div>
+
+          <div class="triple">
+              <div class="video-text">
+                <p>After two minutes, she gets up and walks down the hall to her room.</p>
+              </div>
+            </div>
 
           <div class="triple">
               <div class="video-text">
@@ -137,27 +188,27 @@ richard response
 
           <div class="triple">
               <div class="image-container">
-                  <video src="20190710_Georgia-security1.mp4" controls></video>
+                  <video src="assets/videos/20190710_Georgia-security1.mp4" controls></video>
               </div>
   
               <div class="video-text">
-                <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come. A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
+                <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
               </div>
             </div>
 
           <div class="triple">
               <div class="image-container">
-                  <video src="20190710_Georgia-security2.mp4" controls></video>
+                  <video src="./assets/videos/20190710_Georgia-security2.mp4" controls playsinline ></video>
               </div>
   
               <div class="video-text">
-                <p>More staff come running, followed by police and paramedics, but they are too late.</p>
+                <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
               </div>
             </div>
 
             <div class="triple">
                 <div class="image-container">
-                    <video src="20190710_Georgia-security4.mp4" controls></video>
+                    <video src="assets/videos/20190710_Georgia-security4.mp4" controls></video>
                 </div>
     
                 <div class="video-text">
@@ -172,43 +223,96 @@ richard response
                 </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section14) %>
-      </div>
-
-      <hr>
-
-      <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section15) %>
-      </div>
-
-          <div>
-              <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
-            </a>
-              <div class="caption" id="perry-caption"> “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” says nurse Christina Perry. (Erika Schultz / The Seattle Times)</div>
-          </div>
-
-        <div class="constrained">
-          <%= t.renderMarkdown(archieml.text1.section16) %>
-        </div>
-
-      <hr>
-
-      <div class="floating constrained">
-          <div>
-              <img src="assets/photos/inslee.jpg" alt="Ribbon cutting at Smokey Point Behavioral hospital" aria-describedby="inslee-caption">
-            </a>
-              <div class="caption" id="inslee-caption">AIn July 2017,  Gov. Jay Inslee and Tulalip Tribes Chairwoman Marie Zackuse cut the ribbon at the Smokey Point Behavioral Hospital grand opening. Since 2012, the state has approved or expanded 10 private psychiatric hospitals, nine of which are for-profit. (Kalvin Valdillez / Tulalip News)</div>
-          </div>
-        </div>
-
-      <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section17) %>
       </div>
 
-      <hr>
+      <div class="quote">
+          <img src="assets/long-quote.jpg" style="opacity: 0.5">
+        <h5>Her older daughter’s first day of school was this month, but Reum “didn’t get to see it because somebody didn’t do their job,” said Reum’s mother, Stacey Jenkins.</h5>
+      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section18) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" style="opacity: 0.6">
+        <h5>When the coroner informed Morris’s family of his death, his father slumped to floor. “It is a lie,” his mother said repeatedly, according to the police report. How, she cried, could someone on suicide watch commit suicide in a hospital?</h5>
+      </div>
+
+      <div class="content line">
+          <img src="assets/line.jpg"></div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section19) %>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section20) %>
+      </div>     
+      
+      <div>
+        <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
+      </a>
+        <div class="caption" id="perry-caption"> “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” says nurse Christina Perry. (Erika Schultz / The Seattle Times)</div>
+    </div>
+
+      <div class="quote">
+        <img src="assets/long-quote.jpg" style="opacity: 0.7">
+        <h5>“Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients.” – Christina Perry, former Smokey Point nurse</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section21) %>
+      </div>
+
+      <div class="quote">
+        <img src="assets/long-quote.jpg" style="opacity: 0.8">
+        <h5>On June 24, nursing staff found Rosemary had a bedsore. The woman who never complained said of her pain, “It’s terrible.”</h5>
+      </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section22) %>
+        </div>
+
+        <div class="content line">
+            <img src="assets/line.jpg"></div>
+
+        <div class="floating constrained">
+          <div>
+              <img src="assets/photos/inslee.jpg" alt="Ribbon cutting at Smokey Point Behavioral hospital" aria-describedby="inslee-caption">
+            </a>
+              <div class="caption" id="inslee-caption">In July 2017,  Gov. Jay Inslee and Tulalip Tribes Chairwoman Marie Zackuse cut the ribbon at the Smokey Point Behavioral Hospital grand opening. Since 2012, the state has approved or expanded 10 private psychiatric hospitals, nine of which are for-profit. (Kalvin Valdillez / Tulalip News)</div>
+          </div>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section23) %>
+        </div>
+
+        <div class="quote">
+            <img src="assets/long-quote.jpg" style="opacity: 0.9">
+          <h5>As the state director of Veterans Affairs helped dedicate the new unit at Smokey Point, three Department of Health inspectors were conducting an investigation inside the hospital. They completed a report the next day, finding serious violations including the failure “to ensure nursing staff were trained and available to provide safe and effective care.”</h5>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section24) %>
+        </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section25) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg">
+          <h5>“Governor Inslee is a strong supporter of our model,” the company wrote in a memo for regulators last August, including a link to a YouTube video of his remarks at Smokey Point’s opening.</h5>
+      </div>
+
+      <div class="content line">
+        <img src="assets/line.jpg"></div>
+      
+        <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section26) %>
       </div>
 
       <div class="floating constrained">
@@ -216,24 +320,51 @@ richard response
       </div>
 
       <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section19) %>
+        <%= t.renderMarkdown(archieml.text1.section27) %>
       </div>
 
-      <div>
+      <div class="photo">
           <img src="assets/photos/torgesen-family.jpg" alt="Torgesen family" aria-describedby="torgesenFamily-caption">
         </a>
-          <div class="caption" id="torgesenFamily-caption"> “Four of Rosemary Torgesen’s seven children visit her grave in Shoreline. From left: Marjorie Erickson, Jeff Torgesen, Maurya Smith and Douglas Torgesen. (Erika Schultz / The Seattle Times)</div>
+          <div class="caption" id="torgesenFamily-caption"> Four of Rosemary Torgesen’s seven children visit her grave in Shoreline. From left: Marjorie Erickson, Jeff Torgesen, Maurya Smith and Douglas Torgesen. (Erika Schultz / The Seattle Times)</div>
       </div>
 
       <div class="constrained">
-          <%= t.renderMarkdown(archieml.text1.section20) %>
+          <%= t.renderMarkdown(archieml.text1.section28) %>
         </div>
 
-      <div class="constrained">
-        <video src="assets/videos/20190710_Rosemary_etching.mp4" autoplay loop></video>
+      <div class="center">
+        <video src="./assets/videos/20190710_Rosemary_etching.mp4" autoplay playsinline loop></video>
+      </a>
+      <div class="caption" id="torgesenFamily-caption"> XXXXX (Erika Schultz / The Seattle Times)</div>
       </div>
 
+      <%= t.include("partials/_dontMiss.html") %>
+      <section class="constrained">
+
+            <ul class="aside-text" style="padding-left:0">
+                <h4 style="text-align: center;">CREDITS</h4>
+                <div class="content line">
+                    <img src="assets/line.jpg"></div>
+                    <div style="column-count:2;list-style-type: none">
+                      <li></li>
+                        <li><strong>Reporter:</strong>  Daniel Gilbert</li>
+                        <li><strong>Project editor:</strong>  Ray Rivera</li>
+                        <li><strong>Photographer:</strong>  Erika Schultz</li>
+                        <li><strong>Photo editor:</strong>  Fred Nelson</li>
+                        <li><strong>Video editor:</strong>  Lauren Frohne</li>
+                        <li><strong>Developer and graphic artist:</strong>  Emily M. Eng</li>
+                        <li><strong>Illustrator:</strong>  Gabriel Campanario</li>
+                        <li><strong>Engagement:</strong>  Taylor Blatchford</li>
+                        <li><strong>Project coordinator:</strong>  Laura Gordon</li>
+                    </div>
+            </ul>
+        </section>
+
+        
     </main>
+
+
 
     <%= t.include("partials/_navBottom.html") %>
     <script src="app.js" async></script>

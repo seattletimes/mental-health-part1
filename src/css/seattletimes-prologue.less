@@ -14,13 +14,7 @@
 }
 
 //elements
-header {
-  padding: 20px 20px 0px 20px;
-  margin: 20px auto;
-  text-align: center;
-}
-
-body {
+prologue {
   color: @df-off-black;
   font-family: @df-serif;
   font-size: @df-text-base;
@@ -29,6 +23,7 @@ body {
   margin: 0;
   //remove 300ms click delay in Safari, AKA still the worst
   touch-action: manipulation;
+  background: #aaaaaa;
 }
 
 main {
@@ -60,8 +55,22 @@ a {
   }
 }
 
+.constrained-prologue {
+  margin: 40px auto;
+  max-width:630px;
+  width:100%;
+  padding: 0 15px;
+
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
 img, video, embed, object, iframe {
   max-width: 100%;
+  width:100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,61 +78,56 @@ h1, h2, h3, h4, h5, h6 {
   margin: @df-line-base 0 (@df-line-base/2) 0;
 }
 
-h1 {
-  font-size: 28px;
+h1-prologue {
+  font-size: 32px;
   line-height: 30 / 28;
   letter-spacing: -0.5px;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-block-end: 0;
 
   @media @tablet {
-    font-size: 42px;
+    font-size: 24px;
     line-height: 46 / 42;
     letter-spacing: -1px;
+    text-align:center;
   }
 }
-h2 {
+
+h2-prologue {
   font-size: 28px;
   line-height: @df-line-base;
   text-align: center;
-}
-h3 {
-  font-size: 22px;
-  line-height: 23 / 22;
-}
-h4 {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24 / 16;
-  margin: @df-line-base/2 0 0 0;
-}
-//quote style
-h5 {
-  position: absolute;
-  z-index: 2;
-  font-size: 20px;
-  font-weight: 600;
-  font-style: italic;
-  text-align: center;
-  max-width: 800px;
-  margin-top: -12rem;
-  padding: auto;
+  margin: 0px;
 }
 
+h3-prologue {
+  font-size: 28px;
+  // line-height: 23 / 22;
+}
+
+h4-prologue {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24 / 16;
+  margin: 10px;
+}
 
 //common style elements
 
-.byline {
+.byline-prologue {
   font-size: 18px;
-  margin: 24px auto;
+  margin: 60px auto 24px;
+  text-align: center;
 
   @media @tablet {
     padding: 0 16px;
-    padding-top: 40px;
-
   }
 
   @media @mobile {
     padding: 0 16px;
-    padding-top: 40px;
+    font-size: 14px;
+    margin: 20px auto 24px;
 
   }
 
@@ -173,12 +177,6 @@ nav.main-nav {
       }
     }
   }
-}
-
-.line {
-  max-width: 500px;
-  margin: auto;
-  padding: 10px 0px 5px 0px;
 }
 
 .ad {
@@ -306,11 +304,15 @@ nav.main-nav {
   font-size: 17px;
   font-family: @df-sans;
 
+  @media @mobile {
+    display: block;
+  }
+
   .story {
-    .flex(0 0 25%);
+    .flex(0 0 33%);
 
     @media @mobile {
-      .flex(1 1 50%)
+      display: block;
     }
   }
   .padded {
@@ -347,6 +349,7 @@ footer.nav-bottom {
     img {
       margin-top: 5px;
       height: 20px;
+      width:135px;
     }
   }
 
@@ -355,4 +358,8 @@ footer.nav-bottom {
     content: " ";
     display: block;
   }
+}
+
+p {
+  margin: 0;
 }
