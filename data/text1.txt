@@ -79,7 +79,7 @@ Inspectors asked the chief nursing officer about staffing and recorded this expl
 :end
 section9:
 
-## “Immediate jeopardy”
+# “Immediate jeopardy”
 
 Kresch, US HealthVest’s founder, has made a career developing psychiatric hospitals and selling them for a profit. A psychiatrist by training, Kresch ran Ascend Health before selling it to industry giant Universal Health Services in 2012 for $503 million in cash.
 
@@ -152,7 +152,7 @@ A week after the inspectors issued their findings, Smokey Point admitted Rosemar
 :end
 section14:
 
-## A more appropriate place
+# A more appropriate place
 
 Rosemary stood 5 feet tall and weighed barely 100 pounds, a diminutive stature that contrasted with an exceptionally strong will.
 
@@ -166,7 +166,7 @@ Rosemary, who also had a heart condition, was the oldest patient Smokey Point ha
 
 Crockett, now the interim chief executive of a new psychiatric hospital in Tacoma, didn’t respond to emails and phone messages seeking comment.
 
-Almost as soon as she arrived, Smokey Point’s nursing staff recognized that they lacked the ability to care for her. Staffers said she refused to let them check her vitals, which prevented them from giving her an antipsychotic medication. Two weeks into her stay, a nutritionist recommended that she be “sent to a more medical psych unit” due to “not being able to monitor pt appropriately,” using the shorthand “pt” for patient.
+Almost as soon as she arrived, Smokey Point’s nursing staff recognized that they lacked the ability to care for her. Staffers said she refused to let them check her vitals, which prevented them from giving her an antipsychotic medication. Two weeks into her stay, a nutritionist recommended that she be “sent to a more medical psych unit” due to “not being able to monitor pt appropriately,” using the shorthand “pt” for patient. Almost as soon as Rosemary arrived, Smokey Point’s nursing staff recognized that they lacked the ability to care for her.
 
 The Torgesen family had another facility in mind: Northwest Hospital in Seattle, operated by UW Medicine. Rosemary had been there for electroconvulsive therapy, which sends electric currents through the brain to alter its chemistry, and had responded well. The procedure is performed under general anesthesia and could not be done at Smokey Point. Her children asked the hospital to transfer her to Northwest.
 
@@ -181,7 +181,7 @@ It was, in fact, a wasted effort. Northwest said its geropsychiatric unit was f
 :end
 section15:
 
-## “Hundred percent success rate”
+# “Hundred percent success rate”
 
 Kresch, US HealthVest’s chief executive, has spoken candidly about the company’s focus on profitability, boasting of a “hundred percent success rate in turning around all of the distressed hospitals we have acquired.”
 
@@ -252,7 +252,7 @@ Holbrooks, the detective who also had investigated Sarah Reum’s death, didn’
 :end
 section19:
 
-## “Half dead”
+# “Half dead”
 
 At Smokey Point, some employees hoped US HealthVest would take Washington state’s investigation to heart and improve conditions. Instead, the turmoil only intensified.
 
@@ -302,7 +302,7 @@ On June 29, Smokey Point held an emergency meeting with its medical director, ch
 :end
 section23:
 
-## “A strong supporter”
+# “A strong supporter”
 
 Despite Smokey Point’s struggles, US HealthVest benefited from a key source of support: Gov. Inslee and his administration.
 
@@ -335,7 +335,7 @@ In an interview, Inslee compared Smokey Point to a promising athlete who “fumb
 :end
 section26:
 
-## Fallout
+# Fallout
 
 The staff at Providence Regional Medical Center seemed to be at a loss for how to treat Rosemary Torgesen. Her problem, some felt, was psychiatric and not medical, but Smokey Point wouldn’t take her back. Doctors at Providence asked Northwest Hospital to accept her but they were losing hope.
 
