@@ -29,6 +29,11 @@ body {
   margin: 0;
   //remove 300ms click delay in Safari, AKA still the worst
   touch-action: manipulation;
+
+  @media @mobile {
+    font-size: @df-text-base/1.2;
+    line-height: @df-line-base/1.1;
+  }
 }
 
 main {
@@ -76,15 +81,16 @@ h1 {
   margin-bottom: 0;
 
   @media @tablet {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 46 / 42;
     letter-spacing: -1px;
   }
 }
 h2 {
-  font-size: 36px;
-  line-height: @df-line-base;
+  font-size: 60px;
+  line-height: 65px;
   text-align: center;
+  letter-spacing: -1px;
 
   @media @mobile {
     font-size: 32px;
@@ -128,7 +134,6 @@ h5 {
   @media @tablet {
     padding: 0 16px;
     padding-top: 40px;
-
   }
 
   @media @mobile {
