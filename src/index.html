@@ -30,10 +30,12 @@
           <%= t.renderMarkdown(archieml.text1.section1) %>
       </div>
 
-      <div class="floating constrained">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MgdNjkI6qoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="floating constrained">
+          <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MgdNjkI6qoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        </div>
       </div>
-
+        
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section2) %>
       </div>
@@ -77,14 +79,16 @@
         <%= t.renderMarkdown(archieml.text1.section6) %>
       </div>
 
-      <div class="floating constrained">
-          <%= t.include("partials/_ad.html", { type: "square" }) %>
-        </div>
-richard response
+
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section7) %>
       </div>
+
+      <div class="floating constrained">
+          <%= t.include("partials/_ad.html", { type: "square" }) %>
+        </div>
+richard response
 
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section8) %>
@@ -226,7 +230,7 @@ richard response
         <%= t.renderMarkdown(archieml.text1.section20) %>
       </div>     
       
-      <div class="photo">
+      <div class="photoMedium">
         <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
       </a>
         <div class="caption" id="perry-caption"> “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” says nurse Christina Perry. (Erika Schultz / The Seattle Times)</div>
@@ -300,7 +304,7 @@ richard response
         <%= t.renderMarkdown(archieml.text1.section27) %>
       </div>
 
-      <div class="photo">
+      <div class="photoMedium">
           <img src="assets/photos/torgesen-family.jpg" alt="Torgesen family" aria-describedby="torgesenFamily-caption">
         </a>
           <div class="caption" id="torgesenFamily-caption"> Four of Rosemary Torgesen’s seven children visit her grave in Shoreline. From left: Marjorie Erickson, Jeff Torgesen, Maurya Smith and Douglas Torgesen. (Erika Schultz / The Seattle Times)</div>
