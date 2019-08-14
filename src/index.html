@@ -19,7 +19,6 @@
     </header>
 
     <main class="content">
-
       <div class="byline constrained">
             By <a class="name" href="https://www.seattletimes.com/author/daniel-gilbert/">Daniel Gilbert</a>
             <div class="staff">Seattle Times staff reporter</div>
@@ -30,9 +29,11 @@
           <%= t.renderMarkdown(archieml.text1.section1) %>
       </div>
 
-        <div class="floating constrained">
+      <div class="floating constrained">
           <div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/MgdNjkI6qoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        </a>
+        <div class="captionLeft"> (Douglas Buell / The Arlington Times)</div>
         </div>
       </div>
         
@@ -51,8 +52,10 @@
       </div>
 
       <div class="floating constrained">
-        <h3>resources go here</h3>
-        <%= t.include("partials/_ad.html", { type: "square" }) %>
+        <div>
+          <h3>resources go here</h3>
+          <%= t.include("partials/_ad.html", { type: "square" }) %>
+        </div>
       </div>
 
       <div class="constrained">
@@ -87,7 +90,7 @@
 
       <div class="floating constrained">
           <%= t.include("_kresch.html") %>
-        </div>
+      </div>
 
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section8) %>
@@ -103,9 +106,9 @@
         <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
       </a>
         <div class="caption" id="smokeyPoint-caption"> Washington’s severe shortage of inpatient beds for psychiatric patients put pressure state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville  operated by US HealthVest,  aimed to address the need. (Erika Schultz / The Seattle Times)</div>
-    </div>
+      </div>
 
-    <div class="content line top">
+      <div class="content line top">
         <img src="assets/line.jpg"></div>
 
       <div class="constrained">
@@ -123,84 +126,84 @@
       </div>
       
       <div class="center">
-        <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "6068745696001", runtime: "XX" }) %>
-        <div class="caption">XXXXX (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
+        <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "6068745696001", runtime: "3:08" }) %>
+        <div class="caption">Christina Perry was a nurse at Smokey Point Behavioral Hospital from September 2017 through May 2018. “I felt helpless working there,” she said. “I felt like I didn’t have enough resources to make sure everybody was safe.” (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
       </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section11) %>
-     </div>
+      </div>
 
-     <div class="indent">
-      <li>A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.</li><br>
-      <li>Another patient had a plan to commit suicide by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.</li><br>
-      <li>A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.</li><br>
-      <li>One diabetic patient had a foot ulcer and had a referral to a wound-care clinic “as soon as possible.” Instead, the wound worsened for another nine days until the patient was sent to a medical hospital.</li><br>
-      <li>An aggressive patient was found having sex with a developmentally disabled woman, hours after he was ordered to stay five feet away from all female patients. When a mental-health worker asked if the encounter was consensual, the woman said it was. “He was sent by God to have babies with me,” she said, according to state investigative findings. US HealthVest didn’t respond to whether the matter was referred to law enforcement.</li>
-    </div>
+      <div class="indent">
+        <li>A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.</li><br>
+        <li>Another patient had a plan to commit suicide by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.</li><br>
+        <li>A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.</li><br>
+        <li>One diabetic patient had a foot ulcer and had a referral to a wound-care clinic “as soon as possible.” Instead, the wound worsened for another nine days until the patient was sent to a medical hospital.</li><br>
+        <li>An aggressive patient was found having sex with a developmentally disabled woman, hours after he was ordered to stay five feet away from all female patients. When a mental-health worker asked if the encounter was consensual, the woman said it was. “He was sent by God to have babies with me,” she said, according to state investigative findings. US HealthVest didn’t respond to whether the matter was referred to law enforcement.</li>
+      </div>
 
-    <div class="constrained">
-        <%= t.renderMarkdown(archieml.text1.section13) %>
-    </div>
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section13) %>
+      </div>
 
-    <div class="content line">
-        <img src="assets/line.jpg"></div>
+      <div class="content line">
+          <img src="assets/line.jpg"></div>
 
-    <div class="floating constrained top">
+      <div class="floating constrained top">
         <div>
           <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
         </a>
           <div class="caption" id="rosemary-caption"> Rosemary Torgesen is seen  on Christmas Eve in 2017. Just three months later, Torgesen, who had schizophrenia, was involuntarily committed and admitted to Smokey Point Behavioral Hospital. (Courtesy of Jeffrey Torgesen)</div>
+        </div>
       </div>
-    </div>
 
-    <div class="constrained">
-      <%= t.renderMarkdown(archieml.text1.section14) %>
-    </div>
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section14) %>
+      </div>
 
-    <div class="content line top">
+      <div class="content line top">
         <img src="assets/line.jpg"></div>
 
-    <div class="constrained">
-      <%= t.renderMarkdown(archieml.text1.section15) %>
-    </div>
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section15) %>
+      </div>
 
-    <div class="constrained photo">
-      <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
-    </a>
-      <div class="caption" id="reum-caption"> Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
-    </div>
+      <div class="constrained photo">
+        <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
+        </a>
+        <div class="caption" id="reum-caption"> Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
+      </div>
 
-    <div class="constrained">
-      <%= t.renderMarkdown(archieml.text1.section16) %>
-    </div>
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section16) %>
+      </div>
 
-          <div class="triple">
-              <div class="image-container">
-                  <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
-                </div>
-              <div class="image-container">
-                  <video src="assets/videos/20190710_Georgia-security1.mp4" controls></video>
-              </div>
-            </div>
+      <div class="triple">
+          <div class="image-container">
+              <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
+          </div>
+          <div class="image-container">
+              <video src="assets/videos/20190710_Georgia-security1.mp4" controls></video>
+          </div>
+        </div>
 
-          <div class="triple">
-              <div class="image-container">
-                  <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
-                </div>
-              <div class="image-container">
-                  <video src="./assets/videos/20190710_Georgia-security2.mp4" controls playsinline ></video>
-              </div>
-            </div>
+      <div class="triple">
+        <div class="image-container">
+            <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
+        </div>
+        <div class="image-container">
+            <video src="./assets/videos/20190710_Georgia-security2.mp4" controls playsinline ></video>
+        </div>
+      </div>
 
-            <div class="triple">
-                <div class="image-container">
-                    <p>More staff come running, followed by police and paramedics, but they are too late.</p>
-                  </div>
-                <div class="image-container">
-                    <video src="assets/videos/20190710_Georgia-security4.mp4" controls></video>
-                </div>    
-              </div>
+      <div class="triple">
+        <div class="image-container">
+            <p>More staff come running, followed by police and paramedics, but they are too late.</p>
+        </div>
+        <div class="image-container">
+            <video src="assets/videos/20190710_Georgia-security4.mp4" controls></video>
+        </div>    
+      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section17) %>
@@ -216,11 +219,6 @@
         <%= t.renderMarkdown(archieml.text1.section18) %>
       </div>
 
-      <!-- <div class="quote">
-          <img src="assets/long-quote.jpg" style="opacity: 0.5">
-        <h5>When the coroner informed Morris’s family of his death, his father slumped to floor. “It is a lie,” his mother said repeatedly, according to the police report. How, she cried, could someone on suicide watch commit suicide in a hospital?</h5>
-      </div> -->
-
       <div class="content line">
           <img src="assets/line.jpg"></div>
 
@@ -234,7 +232,7 @@
       
       <div class="photoMedium">
         <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
-      </a>
+        </a>
         <div class="caption" id="perry-caption"> “Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients,” says nurse Christina Perry. (Erika Schultz / The Seattle Times)</div>
     </div>
 
@@ -296,7 +294,7 @@
       <div class="content line">
         <img src="assets/line.jpg"></div>
       
-        <div class="constrained">
+      <div class="constrained">
         <%= t.renderMarkdown(archieml.text1.section26) %>
       </div>
 
@@ -318,35 +316,34 @@
 
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text1.section28) %>
-        </div>
+      </div>
 
       <div class="center top">
         <video src="./assets/videos/20190710_Rosemary_etching.mp4" autoplay playsinline loop></video>
-      </a>
-      <div class="caption" id="torgesenFamily-caption"> XXXXX (Erika Schultz / The Seattle Times)</div>
+        </a>
+        <div class="caption"> XXXXX (Erika Schultz / The Seattle Times)</div>
       </div>
 
       <%= t.include("partials/_dontMiss.html") %>
 
       <section class="constrained">
-          <div class="content line top">
-              <img src="assets/line.jpg"></div>
+        <div class="content line top">
+            <img src="assets/line.jpg"></div>
 
             <ul class="aside-text" style="padding-left:0">
                 <h4 style="text-align: center;">CREDITS</h4>
                 
-                    <div style="column-count:2;list-style-type: none">
-                      <li></li>
-                        <li><strong>Reporter:</strong>  Daniel Gilbert</li>
-                        <li><strong>Project editor:</strong>  Ray Rivera</li>
-                        <li><strong>Photographer:</strong>  Erika Schultz</li>
-                        <li><strong>Photo editor:</strong>  Fred Nelson</li>
-                        <li><strong>Video editor:</strong>  Lauren Frohne</li>
-                        <li><strong>Developer and graphic artist:</strong>  Emily M. Eng</li>
-                        <li><strong>Illustrator:</strong>  Gabriel Campanario</li>
-                        <li><strong>Engagement:</strong>  Taylor Blatchford</li>
-                        <li><strong>Project coordinator:</strong>  Laura Gordon</li>
-                    </div>
+                <div class="credits" style="column-count:2;list-style-type: none">
+                    <li><strong>Reporter:</strong>  Daniel Gilbert</li>
+                    <li><strong>Project editor:</strong>  Ray Rivera</li>
+                    <li><strong>Photographer:</strong>  Erika Schultz</li>
+                    <li><strong>Photo editor:</strong>  Fred Nelson</li>
+                    <li><strong>Video editor:</strong>  Lauren Frohne</li>
+                    <li><strong>Developer and graphic artist:</strong>  Emily M. Eng</li>
+                    <li><strong>Illustrator:</strong>  Gabriel Campanario</li>
+                    <li><strong>Engagement:</strong>  Taylor Blatchford</li>
+                    <li><strong>Project coordinator:</strong>  Laura Gordon</li>
+                </div>
             </ul>
         </section>
 

@@ -26,6 +26,7 @@
     padding: 0;
 
     @button-font-size: 16px;
+
     span {
       position: absolute;
       bottom: 0;
@@ -38,6 +39,11 @@
       font-size: @button-font-size;
       font-family: @df-sans;
       color: white;
+
+      @media @mobile {
+        margin-left: @button-font-size;
+        margin-bottom: @button-font-size;
+      }
     }
 
     svg {

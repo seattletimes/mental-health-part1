@@ -35,7 +35,7 @@
   }
   
   .byline {
-    padding: 0px 16px 20px 16px;
+    padding: 0px 16px 0px 16px;
   }
   
   .caption {
@@ -46,6 +46,10 @@
     font-style: italic;
     font-family: @df-sans;
     color: @df-middle-gray;
+
+    @media @mobile {
+      padding-bottom: 10px;
+    }
   }
   
   .captionLeft {
@@ -57,6 +61,10 @@
     font-style: italic;
     font-family: @df-sans;
     color: @df-middle-gray;
+
+    @media @mobile {
+      padding-bottom: 10px;
+    }
   }
   
   main > img {
@@ -92,14 +100,17 @@
   .floating > div, .floating > img {
     float: right;
     margin-left: 30px;
+
   }
   
   .floating > div {
     width: 350px;
     max-width: 100%;
+
     @media @mobile {
-      float: clear;
+      float: none;
       margin: auto;
+      margin-block-end: 10px;
     }
   
   .floating > img {
@@ -124,13 +135,18 @@
     flex-wrap: wrap;
     max-width: 800px;
 
+    @media @mobile {
+      display: block;
+      padding: 0;
+      }
+
     .image-container {
       padding-right: 20px;
       .flex(0 0 50%);
 
     @media @mobile {
       display: block;
-      padding: 10px;
+      padding: 0px 10px;
       }
     }
     .video-text {
@@ -152,6 +168,10 @@
 
   .photo {
     padding: 20px 0px 20px;
+
+    @media @mobile {
+      padding-bottom: 0;
+    }
   }
 
   .center {
@@ -159,7 +179,7 @@
     padding: 0px 0px 30px;
 
     @media @mobile {
-      padding: 10 0 10px;
+      padding: 10px 0px 10px;
     }
   }
 
@@ -169,13 +189,19 @@
     padding: 5px 0px 5px 0px;
 
     @media @mobile {
-      padding-top: 10px;
+      padding-top: 0;
       max-width: 300px;
     }
   }
 
   .top {
     padding-top: 30px;
+    padding-bottom: 10px;
+    align-self: auto;
+
+    @media @mobile {
+      padding-top: 10px;
+    }
   }
 
   .photoMedium {

@@ -18,6 +18,10 @@ header {
   padding: 20px 20px 0px 20px;
   margin: 20px auto;
   text-align: center;
+
+  @media @mobile {
+    margin-bottom: 0;
+  }
 }
 
 body {
@@ -85,6 +89,7 @@ h1 {
     font-size: 22px;
     line-height: 46 / 42;
     letter-spacing: -1px;
+    margin-top: 0;
   }
 }
 h2 {
@@ -94,7 +99,7 @@ h2 {
   letter-spacing: -1px;
 
   @media @mobile {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 23 / 21;
     letter-spacing: -1px;
   }
@@ -145,9 +150,7 @@ h5 {
   }
 
   @media @mobile {
-    padding: 0 16px;
-    padding-top: 40px;
-
+    padding: 0;
   }
 
   .staff {
@@ -324,10 +327,10 @@ nav.main-nav {
   font-family: @df-sans;
 
   .story {
-    .flex(0 0 25%);
+    .flex(0 0 33%);
 
     @media @mobile {
-      .flex(1 1 50%)
+      .flex(1 1 100%)
     }
   }
   .padded {
