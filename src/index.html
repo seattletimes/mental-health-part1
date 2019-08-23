@@ -417,6 +417,8 @@
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
     <%= t.include("partials/_workHere.html") %>
+
+    <%= t.include("partials/_comments.html") %>
     <% } %>
   </body>
 </html>

@@ -2,7 +2,7 @@ var $ = require("./lib/qsa");
 
 var makePlayer = function(id) {
   return `
-<iframe src="//players.brightcove.net/1509317113/SyePervwbX_default/index.html?videoId=${id}&autoplay=true" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+<iframe src="//players.brightcove.net/1509317113/SyePervwbX_default/index.html?videoId=${id}" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 `;
 };
 
