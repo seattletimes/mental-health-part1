@@ -353,11 +353,12 @@
       <%= t.include("partials/_dontMiss.html") %>
 
       <div class="constrained top">
-        <div class="resources">
+        <div class="resourcesCenter">
           <a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/"><h3>Resources for mental-health support</h3></a>
-          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#1">In a crisis</a></li>
+          <div class="list"><li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#1">In a crisis</a></li>
           <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#2">Finding support</a></li>
           <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#3">Worried about someone you know?</a></li>
+          </div>
         </div>
       </div>
 
@@ -387,7 +388,7 @@
     </main>
 
 
-
+    <%= t.include("partials/_comments.html") %>
     <%= t.include("partials/_navBottom.html") %>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

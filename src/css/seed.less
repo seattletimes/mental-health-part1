@@ -1,6 +1,7 @@
 @import "seattletimes";
 @import "bc-preroll";
 @import "kresch";
+@import "comments";
 
 .visible-mobile {
     display: none !important;
@@ -227,4 +228,31 @@
     border: 2px solid #e0e0e0;
     font-size: 17px;
     margin-bottom: 4px;
+  }
+
+  .resourcesCenter {
+    // background-color: @df-light-gray;
+    padding: 0 20px 20px 30px;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    font-size: 17px;
+    margin-bottom: 4px;
+    text-align: center;
+
+    @media @mobile {
+      text-align: left;
+    }
+
+    .list {
+      text-align: left;
+      padding-left: 30%;
+
+      @media @mobile {
+       padding: 0;
+      }
+    }
+
+    @media @mobile {
+      text-align: left;
+    }
   }
