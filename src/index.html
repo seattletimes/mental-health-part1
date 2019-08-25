@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+      <%= t.include("partials/_gtm.html") %>
       <%= t.include("partials/_nav.html") %>
       <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
@@ -364,7 +365,7 @@
       <a name="timeline">
       <div class="floating constrained">
         <div>
-          <a href="http://projects-staging.seattletimes.com/formal-amyloid/"><h3>Click to see a timeline of Rosemary Torgesen's last months</h3><img src="assets/photos/timeline2.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
+          <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-timeline/"><h3>Click to see a timeline of Rosemary Torgesen's last months</h3><img src="assets/photos/timeline2.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
         </div>
       </div>
     </a>
@@ -405,8 +406,8 @@
       <div class="constrained top">
         <div class="resourcesCenter">
           <a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/"><h3>Resources for mental-health support</h3></a>
-          <div class="list"><li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#one">In a crisis</a></li>
-          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#two">Finding support</a></li>
+          <div class="list"><li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#one">In a crisis?</a></li>
+          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#two">Need support?</a></li>
           <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#three">Worried about someone you know?</a></li>
           </div>
         </div>
@@ -441,15 +442,12 @@
 
     </main>
 
-
     <%= t.include("partials/_comments.html") %>
     <%= t.include("partials/_navBottom.html") %>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
     <%= t.include("partials/_workHere.html") %>
-
-    <%= t.include("partials/_comments.html") %>
     <% } %>
   </body>
 </html>

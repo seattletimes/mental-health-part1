@@ -9,13 +9,13 @@
       "path": "2019/public-crisis-private-toll-part1"
     }
   },
-  "title": "",
-  "description": "",
-  "author": "",
-  "url": "",
+  "title": "Public Crisis, Private Toll",
+  "description": "How a company’s push to expand psychiatric care brought peril",
+  "author": "Daniel Gilbert",
+  "url": "https://projects.seattletimes.com/2019/public-crisis-private-toll-part1/",
   "image": "assets/social.jpg",
   "sheets": [],
   "standout": false,
   "embedded": false,
-  "production": false
+  "production": true
 }
