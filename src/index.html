@@ -157,6 +157,17 @@
         <%= t.renderMarkdown(archieml.text1.section12) %>
       </div>
 
+      <div class="floating constrained">
+          <div class="resources">
+            <h6 style="padding: 10px">You can support watchdog journalism</h6>
+            Make a tax-deductible donation to <a href="https://company.seattletimes.com/investigativefund/">The Seattle Times Investigative Journalism Fund,</a> and subscribe to <a href="https://www.seattletimes.com/subscribe/signup-offers/">The Seattle Times.</a>
+          </div>
+        </div>
+
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section13) %>
+        </div>
+
       <div class="indent">
         <li>A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.</li><br>
         <li>Another patient had a plan to kill herself by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.</li><br>
@@ -439,16 +450,18 @@
           <div class="gray">Make a tax-deductible donation to <a href="https://company.seattletimes.com/investigativefund/">The Seattle Times Investigative Journalism Fund,</a> and subscribe to <a href="https://www.seattletimes.com/subscribe/signup-offers/">The Seattle Times.</a></div>
         </div>
 
-        <div class="trouble">
-            <p>If you’re having trouble commenting or viewing comments, hit refresh on your browser and try again.</p>
-        </div>
+        
 
     </main>
       
 
-    <%= t.include("partials/_comments.html") %>
+   
     <%= t.include("partials/_navBottom.html") %>
     <script src="app.js" async></script>
+    <div class="trouble">
+        <p>If you’re having trouble commenting or viewing comments, hit refresh on your browser and try again.</p>
+    </div>
+    <%= t.include("partials/_comments.html") %>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
     <%= t.include("partials/_workHere.html") %>
